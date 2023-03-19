@@ -14,6 +14,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * Change Playlist Title — users can change the title of their custom playlist.
 * Save Playlist to Account — users can save their custom playlist by clicking a button called SAVE TO SPOTIFY.
 
+## Quick Preview
+
+
+
+https://user-images.githubusercontent.com/99802472/226211327-541e5eae-7df0-4715-91ae-09b98545811f.mp4
+
+
+
 ## Technologies
 
 * React Front-End library
