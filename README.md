@@ -31,10 +31,7 @@ After creating your app on spotify the top of Spotify.js :
 * Set the client ID variable to the value provided on your application page.
 * Set the redirect URI to "http://localhost:3000/".
 
-
-
-https://user-images.githubusercontent.com/99802472/226210391-aa2b4bd4-c6bd-4018-8aa8-48825c4b2ff0.mp4
-
+https://user-images.githubusercontent.com/99802472/226210440-865e1343-e606-4e46-9943-f82f1a32bbe3.mp4
 
           
 In the project directory, you can run the app throught pwsh or cmd by doing the following :
