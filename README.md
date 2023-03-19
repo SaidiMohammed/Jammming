@@ -31,12 +31,11 @@ After creating your app on spotify the top of Spotify.js :
 * Set the client ID variable to the value provided on your application page.
 * Set the redirect URI to "http://localhost:3000/".
 
-<div style="position:relative;width:fit-content;height:fit-content;">
-            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/SPhPdpFJQUP?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-                <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
-            </a>
-            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/SPhPdpFJQUP/embed" width="640" height="360"></iframe>
-          </div>
+
+
+https://user-images.githubusercontent.com/99802472/226210391-aa2b4bd4-c6bd-4018-8aa8-48825c4b2ff0.mp4
+
+
           
 In the project directory, you can run the app throught pwsh or cmd by doing the following :
 Don't forget to put the App's directory ! 
