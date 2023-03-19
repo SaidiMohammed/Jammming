@@ -41,7 +41,7 @@ After creating your app on spotify the top of Spotify.js :
 
 <p align="center">
 <strong>
-### All data in the video below have already been deleted for security purposes
+All data in the video below have already been deleted for security purposes
 <strong>
 </p>
 
