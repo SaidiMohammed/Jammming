@@ -20,8 +20,12 @@ Quick Preview
 <strong>
 </p>
 
-https://user-images.githubusercontent.com/99802472/226211327-541e5eae-7df0-4715-91ae-09b98545811f.mp4
 
+<p align="center">
+  <video src="https://user-images.githubusercontent.com/99802472/226211327-541e5eae-7df0-4715-91ae-09b98545811f.mp4" width=400/>
+<p/>
+  
+  
 ## Technologies
 
 * React Front-End library
