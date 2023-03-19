@@ -5,8 +5,6 @@ Jammming is a React web application that allows users to build and add Spotify p
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and a part of the CodeCademy FullStack Engineering Carreer path Certification.
 
-You can have a preview at : myfirstreactjammming.surge.sh
-
 ## Features
 * Spotify Login — the first time a user searches for a song, album, or artist, Spotify will ask them to log in or set up a new account.
 * Search by Song, Album, or Artist — a user can type the name of a song, artist, or album into the search bar and click the SEARCH button. The app will request song data about the user's input from the Spotify library.
