@@ -21,9 +21,9 @@ Quick Preview
 </p>
 
 
-<p align="center">
+<div align="center">
   <video src="https://user-images.githubusercontent.com/99802472/226211327-541e5eae-7df0-4715-91ae-09b98545811f.mp4" width=500px/>
-<p/>
+<div/>
   
   
 ## Technologies
@@ -49,9 +49,9 @@ All data in the video below have already been deleted for security purposes
 <strong>
 </p>
 
-<p align="center">
+<div align="center">
   <video src="https://user-images.githubusercontent.com/99802472/226210440-865e1343-e606-4e46-9943-f82f1a32bbe3.mp4" width=400/>
-<p/>
+<div/>
 
 
 You can run the app throught pwsh or cmd by doing the following :
