@@ -21,7 +21,11 @@ Quick Preview
 </p>
 
 
+<p align="center">
+<strong>
 https://user-images.githubusercontent.com/99802472/226211327-541e5eae-7df0-4715-91ae-09b98545811f.mp4
+<strong>
+</p>
 
 
 
