@@ -4,7 +4,6 @@ import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults'
 import Playlist from '../Playlist/Playlist';
-
 import Spotify from '../../util/Spotify';
 
 class App extends React.Component {
@@ -14,6 +13,7 @@ class App extends React.Component {
     this.state = {
       searchResults: [],
       playlistName: 'My Playlist',
+      loggedIn: false,
       playlistTracks: []
     };
     
@@ -22,6 +22,22 @@ class App extends React.Component {
     this.updatePlaylistName = this.updatePlaylistName.bind(this);
     this.savePlaylist = this.savePlaylist.bind(this);
     this.search = this.search.bind(this);
+    this.login = this.login.bind(this);
+  
+    // Check if the user is logged in
+  }
+  async checkLoggedIn(){
+    try {
+      const token = await Spotify.getAccessToken();
+      if (token) {
+        this.setState({loggedIn: true});
+      } else {
+        this.setState({loggedIn: false});
+      }
+    } catch (error) {
+      console.log(error);
+      this.setState({loggedIn: false});
+    }
   }
 
   addTrack(track){
@@ -60,10 +76,20 @@ class App extends React.Component {
     });
   }
 
+  async login() {
+    const token = await Spotify.getAccessToken(true);
+    if (token) {
+      this.setState({loggedIn: true});
+      document.getElementById("button").innerHTML = "Logged In";
+    }
+  }
 
   render() {
     return (
     <div>
+      <div className="login-btn"> 
+            <button onClick={this.login} id="button"><img src={require('./Spotify.png')} id="Spotify_Logo"/>Login</button>
+      </div>
       <h1>Ja<span className="highlight">mmm</span>ing</h1>
       <div className="App">
         <SearchBar onSearch={this.search}/>

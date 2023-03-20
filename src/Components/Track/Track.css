@@ -7,11 +7,16 @@
 .Track-action {
   cursor: pointer;
   padding: .5rem;
-  font-size: 1.05rem;
+  font-size: 2.05rem;
   transition: color .25s;
   border: 0px;
   background-color: rgba(0, 0, 0, 0);
   color: #fff;
+  height: 10px;
+}
+
+.spotify-player {
+  opacity: 80%; 
 }
 
 .Track-action:hover {
@@ -23,7 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 72px;
+  height: 170px;
 }
 
 .Track-information h3 {
@@ -32,6 +37,8 @@
 
 .Track-information p {
   font-size: .83rem;
+  padding: 8px;
   font-weight: 300;
   color: rgba(256, 256, 256, 0.8);
 }
+
