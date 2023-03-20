@@ -1,28 +1,52 @@
 # Jammming - The Spotify Playlist Creator
+### March 20th 2023
 ###### Please note that this app is still under development
 
-Jammming is a React web application that allows users to build and add Spotify playlists. It accomplishes this by connecting and authenticating to a user's account and searching for Tracks, Artists, or Albums through the Spotify API. The results are then displayed in a list, from which music may be simply added or removed from a new playlist. After the playlist is all set and done, it may be named and saved to the user's Spotify account.
+## Introduction
+Jammming is a React web application that allows users to build and add Spotify playlists. It accomplishes this by connecting and authenticating to a user's account and searching for Tracks, Artists, or Albums through the Spotify API. The results are then displayed in a list, from which music may be simply added or removed from a new playlist. After the playlist is all set and done, it may be named and saved to the user's Spotify account.
+We will now explain the features that we already have and the ones we will be implementing after.
+
+## FEATURES:
+•	Spotify Login — the first time a user searches for a song, album, or artist, Spotify will ask them to log in or set up a new account.
+•	Search by Song, Album, or Artist.
+•	Populate Results List.
+•	Add Song to a Custom Playlist.
+•	Remove Song from Custom Playlist.
+•	Change Playlist Title.
+•	Save Playlist to Account.
+
+### Our objective is to increment 3 new features which are : 
+•	A Login Button.
+•	A Redesign.
+•	A Spotify Audio Player
+
+Of course, further features will be implemented in the future and you can find what will be updated in this README !
+
+## BACKGROUND 
+
+The feature to implement is a login button to let the user know that they are connected to their Spotify Account or that they need to in order to make their playlist and add it. Clicking on any button will trigger the creation of an access token after one login. The same access token gets refreshed after every new search.
+
+A redesign for more originality. We will be changing the background image and color settings since our app is wildly used in the educational sector especially by its original instructor CodeCademy for starting developers to apply their new React skills.
+
+Adding a Spotify Audio Player under each track to enable users to play the tracks they want prior adding them to their playlist. 
+
+## TECHNICAL DESIGN
+* For the first feature, simple asynchronous functions will be created to make the login button act as a gateway between the user and the generated access token.
+* For the second feature, audio players will be configured between **<iframe>** tags since using the spotify player would wllow us to have a better design than using a self made one and a waste of precious time.
+* For front-end changes, we chose to go Green like the spotify logo and give the website a little darker background for more contrast. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and a part of the CodeCademy FullStack Engineering Carreer path Certification.
-
-## Features
-* Spotify Login — the first time a user searches for a song, album, or artist, Spotify will ask them to log in or set up a new account.
-* Search by Song, Album, or Artist.
-* Populate Results List.
-* Add Song to a Custom Playlist.
-* Remove Song from Custom Playlist.
-* Change Playlist Title.
-* Save Playlist to Account.
 
 <p align="center">
 <strong>
 Quick Preview
 <strong>
 </p>
-
-
-https://user-images.githubusercontent.com/99802472/226211327-541e5eae-7df0-4715-91ae-09b98545811f.mp4
   
+
+https://user-images.githubusercontent.com/99802472/226460646-cbb815fd-759c-47d9-9115-1113e59b8e5a.mp4
+
+
   
 ## Technologies
 
