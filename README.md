@@ -1,7 +1,6 @@
 # Jammming - The Spotify Playlist Creator
 ### March 20th 2023
 ###### Please note that this app is still under development
-### WEBISITE HOSTED AT : http://myfirstreactjammming.surge.sh/
 
 ## Introduction
 Jammming is a React web application that allows users to build and add Spotify playlists. It accomplishes this by connecting and authenticating to a user's account and searching for Tracks, Artists, or Albums through the Spotify API. The results are then displayed in a list, from which music may be simply added or removed from a new playlist. After the playlist is all set and done, it may be named and saved to the user's Spotify account.
